@@ -15,21 +15,21 @@
   padding-bottom: 80px;
 }
 
-.price-item1{
-height: 50px;
-background-color: rgb(51, 51, 51);
-text-align: center;
-margin-bottom: 1px;
+.price-title {
+  height: 50px;
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+  margin-bottom: 1px;
 }
 
-.price-item2{
+.price-amount {
   height: 100px;
   background-color: rgb(51, 51, 51);
   text-align: center;
   margin-bottom: 2px;
 }
 
-.price-item3{
+.price-condition {
   height: 50px;
   background-color: rgb(51, 51, 51);
   text-align: center;
@@ -37,21 +37,21 @@ margin-bottom: 1px;
   margin-bottom: 2px;
 }
 
-.price-item4{
+.price-item4 {
   height: 40px;
   background-color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 2px;
 }
 
-.price-item5{
-height: 50px;
-background-color: rgb(217, 137, 67);
-text-align: center;
-margin-bottom: 2px;
-}        
+.price-condition-ext {
+  height: 50px;
+  background-color: rgb(217, 137, 67);
+  text-align: center;
+  margin-bottom: 2px;
+}
 
-.price-link1 {
+.price-title a {
   line-height: 40px;
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -60,7 +60,7 @@ margin-bottom: 2px;
   text-align: center; /*выравнивание строки по центру*/
 }
 
-.price-link2 {
+.price-amount a {
   line-height: 40px;
   font-size: 35px;
   color: rgb(255, 255, 255);
@@ -69,15 +69,16 @@ margin-bottom: 2px;
   text-align: center; /*выравнивание строки по центру*/
 }
 
-.price-link3 {
+.price-condition-ext a {
   line-height: 40px;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
   font-family: open sans, sans-serif;
   font-weight: 700;
   text-align: center; /*выравнивание строки по центру*/
 }
-.price-link4 {
+
+.price-condition a {
   line-height: 40px;
   font-size: 14px;
   color: rgb(134, 135, 139);
@@ -85,3 +86,4 @@ margin-bottom: 2px;
   font-weight: 400;
   text-align: center; /*выравнивание строки по центру*/
   margin-bottom: 2px;
+}
