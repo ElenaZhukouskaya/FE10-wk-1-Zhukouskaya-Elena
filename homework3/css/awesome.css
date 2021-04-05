@@ -2,6 +2,7 @@
   padding-bottom: 109px;
   display: flex;
   margin: 0 -15px;
+  justify-content: space-between;
 }
 
 .awesome-item {
@@ -16,9 +17,12 @@
   height: 70px;
   margin: auto; /*выравнивание строки по центру*/
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.itemtitle {
+.item-title {
   font-size: 20px; /*размер шрифта 20*/
   /*font-weight: 400;*/
   color: rgb(51, 51, 51); /*цвет #*/
