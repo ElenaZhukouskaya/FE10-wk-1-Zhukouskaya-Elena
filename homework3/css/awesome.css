@@ -1,0 +1,37 @@
+.row {
+  padding-bottom: 109px;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.awesome-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item-icon {
+  border: 1px solid rgb(217, 137, 67);
+  border-radius: 70px 70px 70px 70px;
+  width: 70px;
+  height: 70px;
+  margin: auto; /*выравнивание строки по центру*/
+  margin-bottom: 30px;
+}
+
+.itemtitle {
+  font-size: 20px; /*размер шрифта 20*/
+  /*font-weight: 400;*/
+  color: rgb(51, 51, 51); /*цвет #*/
+  font-family: open sans, sans-serif; /*подключен шифр с жирностью 700*/
+  font-weight: 700;
+  text-align: center; /*выравнивание строки по центру*/
+  margin-bottom: 16px;
+}
+.item-text {
+  font-size: 14px; /*размер шрифта 14*/
+  color: rgb(0, 0, 0); /*цвет #*/
+  font-family: open sans, sans-serif; /*подключен шифр с жирностью 700*/
+  font-weight: 400;
+  text-align: center; /*выравнивание строки по центру*/
+  /*font-style: unset;*/
+}
