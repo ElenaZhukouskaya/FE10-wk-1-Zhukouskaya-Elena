@@ -1,0 +1,67 @@
+.axure {
+  width: 100%;
+  padding-top: 58px;
+  /*background-image: ;*/
+  background: url("/img/bg/axurefon.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.axurecontainer {
+  max-width: 1170px;
+  margin: auto; /*выравнивание по центру*/
+  padding: 0 15px; /*поля сверху-снизу и справа и слева*/
+  position: relative;
+  z-index: 1;
+}
+
+.axure-title {
+  font-size: 36px; /*размер шрифта 36*/
+  font-family: Raleway, sans-serif; /*подключен шифр с жирностью 400*/
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center; /*выравнивание строки по центру*/
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.axure-text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 57px;
+}
+
+.axurebutton {
+  /*margin-top: 57px;*/
+  padding-bottom: 38px;
+  width: 135px;
+  height: 42px;
+  margin: auto;
+  border: 1px solid rgba(196, 196, 196, 0);
+  background-clip: border-box;
+}
+
+.axurebutton a {
+  /*line-height: 42px;*/
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open sans, sans-serif;
+  font-weight: 600;
+  /*text-align: center;
+  vertical-align: middle;*/
+}

@@ -1,5 +1,7 @@
 @import url(../css/awesome.css);
 @import url(../css/price.css);
+@import url(../css/customers.css);
+@import url(../css/axure.css);
 
 * {
   margin: 0; /*сброс отступов*/
@@ -17,11 +19,21 @@
 .awesome {
   width: 100%;
   background-color: rgb(255, 255, 255);
+  padding-top: 100px;
+  padding-bottom: 109px;
 }
 
 .price {
   width: 100%;
   background-color: rgb(233, 233, 233); /*#e5e5e5*/
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.customers {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 80px;
 }
 
 .container {
@@ -36,9 +48,9 @@
   font-weight: 400;
   color: rgb(33, 33, 33); /*цвет #212121  или 33 33 33*/
   text-align: center; /*выравнивание строки по центру*/
-  padding-top: 100px;
+  vertical-align: top;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 34px;
 }
 
 .line {
@@ -46,11 +58,7 @@
   border-bottom: 2px solid rgb(217, 137, 67);
   width: 64px;
   margin: auto;
-  /*padding-top: 25px;*/
-  /*padding-bottom: 30px;*/
-  /*padding-right: 0;*/
-  /* text-align: center;*/
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 .text {
@@ -59,7 +67,7 @@
   font-family: Open sans, sans-serif;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 67px;
+  /*margin-bottom: 67px;*/
 }
 
 */ .footer {
