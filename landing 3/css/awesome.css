@@ -32,11 +32,3 @@
   text-align: center; /*выравнивание строки по центру*/
   margin-bottom: 16px;
 }
-.item-text {
-  font-size: 14px; /*размер шрифта 14*/
-  color: rgb(0, 0, 0); /*цвет #*/
-  font-family: open sans, sans-serif; /*подключен шифр с жирностью 700*/
-  font-weight: 400;
-  text-align: center; /*выравнивание строки по центру*/
-  /*font-style: unset;*/
-}
