@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework3</title>
+    <title>landing</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap" rel="stylesheet" />
@@ -13,10 +13,60 @@
 
 
     <body>
+      <nav class="nav">
+        <div class="container">
+         <div class="nav-row">
+           <div class="logo"><p class="logotext">ax<span class="logotexttl">it</span></p></div>
+           <div class="nav-items"><ul class="items">
+             <li><a href="#">Feature</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Pricing</a></li>
+             <li><a href="#">Reviews</a></li>
+             <li><a href="#">Contact</a></li>
+           </ul>
+          </div>
+         </div> 
+        </div>
+      </nav>
+      
     <header class="header">
-      <div class="container"></div>
+      <div class="header-container">
+        <div class="title-block">
+          <h1 class="header-title">ax<span class="logotexttl">it</span></h1>
+          <p class="header-description">Modern axure template for beautiful prototypes</p>
+          <div class="header-line"></div>
+          <p class="header-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias.</p>
+          <div class="button">
+            <a href="#">Download</a>
+          </div>
+        </div>
+        <div class="form-block">
+          <div class="form-container">
+            <h4 class="title-form">Try Your <span class="logotexttl">FREE</span> Trial Today</h4>
+          <form action="#">
+            <div class="form-group">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email" name="email" required>
+            <input type="text" placeholder="Password" name="password" required>
+          </div>
+          <button type="submit" class="form-button">Get Started</button>
+            <!--<div class="form-button"><a href="#">Get Started</a>
+            </div>-->
+          </form>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <section class="social-icons">
+      <div class="social-container">
+        <div class="social-title-block">
+        <h4 class="social-title">Social Media</h4>
+        <p class="social-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolorum mollitia explicabo!</p>
+        </div>
+      </div>
+    </section>
+    
     <section class="awesome">
       <div class="container">
         <h2 class="title awesome-title">why this is awesome</h2>
@@ -163,7 +213,7 @@
         <div class="axure-text">
           <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
         </div>
-        <div class="axurebutton">
+        <div class="button center">
           <a href="#">Download</a></div>
       </div>
     </section>
@@ -171,7 +221,32 @@
         
 
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <h2 class="title">Contact us</h2>
+        <div class="line"></div>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
+
+        <div class="form-block">
+          <div class="form-container">
+            <form action="#">
+            <div class="form-group">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email" name="email" required>
+            <input type="text" placeholder="Password" name="password" required>
+            </div>
+            </form>
+            <input type="text">
+          </div>
+
+          <form action="#" method="post">
+            <p><b>Message</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+          </form>
+
+        </div>
+
+      </div>
     </footer>
+
   </body>
 </html>

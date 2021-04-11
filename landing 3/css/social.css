@@ -1,0 +1,34 @@
+.social-container {
+  /*max-width: 1170px*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*margin: auto; /*выравнивание по центру*/
+  /*padding: 0 60px 0 90px; /*поля сверху-снизу и справа и слева*/
+  padding: 0 60px;
+}
+
+.social-title-block {
+  padding-top: 14px;
+  padding-bottom: 17px;
+  justify-content: space-between;
+}
+
+.social-title {
+  font-size: 20px;
+  color: rgba(51, 51, 51, 1);
+  font-family: open sans, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.social-text {
+  font-size: 14px;
+  color: rgb(134, 135, 139);
+  font-family: Open sans, sans-serif;
+  font-weight: 400;
+  text-align: left;
+  /*margin-bottom: 67px;*/
+}

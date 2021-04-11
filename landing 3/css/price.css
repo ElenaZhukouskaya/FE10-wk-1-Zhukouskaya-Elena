@@ -58,12 +58,16 @@
     font-weight: 600;
     }
 
+    .price-condition:hover{
+     background-color: rgb(224, 116, 65);
+    }
+
 .price-gb {
   background-color: rgb(255, 255, 255);
   margin-bottom: 2px;
   line-height: 40px;
   font-size: 14px;
-  color: rgba(134, 135, 139, 1);
+  color: rgb(139, 136, 134);
   font-family: open sans, sans-serif;
   font-weight: 400;
   text-align: center; /*выравнивание строки по центру*/
