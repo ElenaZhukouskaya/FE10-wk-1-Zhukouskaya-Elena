@@ -1,0 +1,106 @@
+.footer {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 80px;
+}
+
+.footer-row {
+  padding-top: 44px;
+  /*margin-right: 30px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*padding-top: 111px;
+  padding-bottom: 120px;*/
+  /*justify-content: flex-end;*/
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+  flex: 50%;
+}
+
+.footerform-group {
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.form-message {
+  display: flex;
+  flex: 50%;
+  justify-content: flex-end;
+}
+
+.form-message p {
+  text-align: left;
+}
+
+.form-button {
+  /*width: 100%;*/
+  background-color: rgba(236, 121, 121, 1);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  display: flex;
+  /*margin-top: 38px;*/
+  /*position: relative;
+  top: 38px;
+  left: 0px;*/
+  margin: auto;
+  margin-bottom: 34px;
+  border: 1px solid rgba(236, 121, 121, 1);
+  width: 135px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  /* margin: 5px 0 22px 0;*/
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  font-size: 14px; /*размер шрифта 60*/
+  font-family: Open Sans, sans-serif; /*подключен шифр с жирностью 400*/
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+}
+
+.footer-icons {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 15px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+
+.footer-icones {
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  color: rgba(255, 255, 255, 1);
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  margin: auto;
+  justify-content: center;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+.lower {
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
