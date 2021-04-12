@@ -1,18 +1,27 @@
+.social-icons {
+  width: 100%;
+  background-color: rgba(248, 239, 239, 1);
+}
+
 .social-container {
-  /*max-width: 1170px*/
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   /*margin: auto; /*выравнивание по центру*/
   /*padding: 0 60px 0 90px; /*поля сверху-снизу и справа и слева*/
-  padding: 0 60px;
+  /*padding: 0 60px;*/
 }
 
 .social-title-block {
+  margin: 0 0 0 -15px;
   padding-top: 14px;
   padding-bottom: 17px;
   justify-content: space-between;
+  margin-right: 80px;
 }
 
 .social-title {
@@ -31,4 +40,51 @@
   font-weight: 400;
   text-align: left;
   /*margin-bottom: 67px;*/
+}
+
+.social-icones {
+  display: flex;
+  margin: 0 -15px 0 60;
+  padding: 34px 0;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-direction: row;
+}
+
+.social-icones i {
+  font-size: 42px;
+  margin-left: 45px;
+  color: darkgray;
+}
+
+/*.social-icones i:first-child {
+  margin-left: 0px;
+}*/
+
+.facebook i:hover {
+  color: #3b5998;
+}
+
+.twitter i:hover {
+  color: #00acee;
+}
+
+.g i:hover {
+  color: #db4a39;
+}
+
+.telegram i:hover {
+  color: #e0cfb1;
+}
+
+.instagram i:hover {
+  color: #3f729b;
+}
+
+.whatsapp i:hover {
+  color: #43d854;
+}
+
+.youtube i:hover {
+  color: #c4302b;
 }

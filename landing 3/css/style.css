@@ -5,6 +5,7 @@
 @import url(../css/nav.css);
 @import url(../css/header.css);
 @import url(../css/social.css);
+@import url(../css/footer.css);
 
 * {
   margin: 0; /*сброс отступов*/
@@ -14,52 +15,22 @@
   box-sizing: border-box; /*дает получить заданные размеры*/
 }
 
-.nav {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 1);
-}
-
-.header {
-  width: 100%;
-}
-
-.social-icons {
-  width: 100%;
-  background-color: rgba(248, 239, 239, 1);
-}
-
-.awesome {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  padding-top: 100px;
-  padding-bottom: 109px;
-}
-
-.price {
-  width: 100%;
-  background-color: rgb(233, 233, 233); /*#e5e5e5*/
-  padding-top: 80px;
-  padding-bottom: 70px;
-}
-
-.customers {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  padding-top: 80px;
-}
-
 .container {
   max-width: 1170px;
-  /*margin: auto; /*выравнивание по центру*/
+  margin: auto; /*выравнивание по центру*/
   padding: 0 15px; /*поля сверху-снизу и справа и слева*/
 }
 
+.logotipstyle {
+  color: rgba(236, 121, 121, 1);
+}
+
 .title {
-  font-size: 36px; /*размер шрифта 36*/
-  font-family: Raleway, sans-serif; /*подключен шифр с жирностью 400*/
+  font-size: 36px;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
-  color: rgb(33, 33, 33); /*цвет #212121  или 33 33 33*/
-  text-align: center; /*выравнивание строки по центру*/
+  color: rgb(33, 33, 33);
+  text-align: center;
   vertical-align: top;
   text-transform: uppercase;
   margin-bottom: 34px;
@@ -82,18 +53,8 @@
   /*margin-bottom: 67px;*/
 }
 
-.item-text {
-  font-size: 14px; /*размер шрифта 14*/
-  color: rgb(0, 0, 0); /*цвет #*/
-  font-family: open sans, sans-serif; /*подключен шифр с жирностью 700*/
-  font-weight: 400;
-  text-align: center; /*выравнивание строки по центру*/
-  /*font-style: unset;*/
-}
-
 .button {
-  /*margin-top: 57px;*/
-  /*padding-bottom: 38px;*/
+  margin-top: 40px;
   width: 135px;
   height: 42px;
   /*margin: auto;*/
@@ -108,12 +69,4 @@
   font-weight: 600;
   padding-left: 30px;
   padding-right: 30px;
-}
-
-.logotexttl {
-  color: rgba(217, 137, 67, 1);
-}
-
-*/ .footer {
-  background-color: rgb(249, 251, 252);
 }
