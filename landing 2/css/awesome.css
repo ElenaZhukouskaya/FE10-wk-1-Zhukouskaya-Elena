@@ -1,24 +1,13 @@
 .awesome {
   width: 100%;
   background-color: rgba(255, 255, 255, 1);
-  padding: 5em 0em 7.25em 0em;
-}
-
-/*.awesome-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}*/
-
-.awesome-title {
-  width: 36%;
+  padding: 5em 0em 5.25em 0em;
 }
 
 .awesome-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*margin: 0 -0.94rem 0 -0.94rem;*/
 }
 
 .awesome-row-item {
@@ -27,6 +16,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .awesome-icon {
@@ -60,4 +50,11 @@
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .awesome-row {
+    display: flex;
+    flex-direction: column;
+  }
 }

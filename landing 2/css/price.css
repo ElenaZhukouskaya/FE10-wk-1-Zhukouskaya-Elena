@@ -4,22 +4,18 @@
   padding: 5em 0em 3.75em 0em;
 }
 
-.price-title {
-  width: 30%;
-}
-
 .price-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .price-card {
+  display: flex;
   flex-direction: column;
+  flex: 1;
   margin-left: 0.94rem;
   margin-right: 0.94rem;
-  width: 21.25rem;
-  padding-bottom: 0.63rem;
+  padding-bottom: 1.63rem;
 }
 
 .price-card:last-child {
@@ -27,7 +23,6 @@
 }
 
 .price-card-title {
-  /*line-height: 3.13rem;*/
   text-align: center;
   background-color: rgba(51, 51, 51, 1);
   font-family: Open Sans, sans-serif;
@@ -39,7 +34,6 @@
 }
 
 .price-card-amount {
-  /*line-height: 6.25rem;*/
   text-align: center;
   background-color: rgba(51, 51, 51, 1);
   font-family: Raleway, sans-serif;
@@ -51,7 +45,6 @@
 }
 
 .price-card-condition {
-  /*line-height: 3.13rem;*/
   background-color: rgb(51, 51, 51);
   margin-bottom: 2px;
   text-align: center;
@@ -70,7 +63,6 @@
 }
 
 .price-card-gb {
-  /*line-height: 2.5rem;*/
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
   font-family: Open Sans, sans-serif;
@@ -79,4 +71,11 @@
   color: rgba(134, 135, 139, 1);
   margin-bottom: 0.06rem;
   padding: 0.63rem 0 0.69rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .price-row {
+    display: flex;
+    flex-direction: column;
+  }
 }

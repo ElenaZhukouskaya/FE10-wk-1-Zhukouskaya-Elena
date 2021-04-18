@@ -44,7 +44,6 @@
 }
 
 .feature-title-block {
-  /*width: 29.11rem;*/
   padding-top: 1.56rem;
   display: flex;
   flex-direction: column;
@@ -68,12 +67,6 @@
   color: rgba(134, 135, 139, 1);
   margin-bottom: 0.88rem;
 }
-
-/*
-.tab:last-child {
-  margin-bottom: 0rem;
-}
-*/
 
 .btn-feature {
   width: 130px;
@@ -118,6 +111,7 @@
 
   .feature-title-block {
     text-align: center;
+    margin-right: 0;
   }
 
   .btn {
