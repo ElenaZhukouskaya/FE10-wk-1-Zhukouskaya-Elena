@@ -1,0 +1,45 @@
+.contacts {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5em 0em 3.44em 0em;
+}
+
+.contacts-title {
+  width: 20%;
+}
+
+.contacts-form-block {
+  margin: 0 -0.94rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4.7rem;
+}
+
+.contacts-form {
+  width: 42%;
+  padding: 0.94rem 0px;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  border-bottom: 0.06rem solid rgba(189, 189, 189, 1);
+}
+
+.message-form {
+  width: 42%;
+  padding: 0.94rem 0px;
+}
+
+.message {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+}
+
+.btn-contacts {
+  margin: auto;
+  width: 15%;
+}

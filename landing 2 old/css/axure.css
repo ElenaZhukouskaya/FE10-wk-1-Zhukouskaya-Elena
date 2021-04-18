@@ -1,13 +1,12 @@
 .axure {
   width: 100%;
   padding-top: 58px;
-  padding-bottom: 49px;
-  /*background-image: ;*/
+  padding-bottom: 38px;
   background: url("../img/bg/axurefon.png") no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-  display: flex;
+  display: flex; /*?*/
 }
 
 .axure::after {
@@ -20,7 +19,7 @@
   top: 0;
   left: 0;
 }
-.axurecontainer {
+.axure-container {
   max-width: 1170px;
   margin: auto; /*выравнивание по центру*/
   padding: 0 15px; /*поля сверху-снизу и справа и слева*/

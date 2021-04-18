@@ -1,4 +1,4 @@
-.social-icons {
+.social {
   width: 100%;
   background-color: rgba(248, 239, 239, 1);
 }
@@ -11,9 +11,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  /*margin: auto; /*выравнивание по центру*/
-  /*padding: 0 60px 0 90px; /*поля сверху-снизу и справа и слева*/
-  /*padding: 0 60px;*/
 }
 
 .social-title-block {

@@ -12,29 +12,28 @@
     </head>
 
     <body>
-
       <nav class="nav">
         <div class="container">
-         <div class=" row nav-row">
-          <div class="logotip">
-            <p class="logotip">ax<span class="logotipstyle">it</span></p>
-          </div>
-          <div class="nav-items">
-            <ul class="items">
-             <li><a href="#">Feature</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Pricing</a></li>
-             <li><a href="#">Reviews</a></li>
-             <li><a href="#">Contact</a></li>
+          <div class="nav-row">
+            <div class="logotip">
+              <a href="#">ax<span class="logotipstyle">it</span></a>
+             </div>
+            <ul class="nav-items">
+             <li class="nav-item"><a href="#">Feature</a></li>
+             <li class="nav-item"><a href="#">About</a></li>
+             <li class="nav-item"><a href="#">Pricing</a></li>
+             <li class="nav-item"><a href="#">Reviews</a></li>
+             <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
           </div>
-         </div> 
         </div>
       </nav>
            
     <header class="header">
       <div class="header-container">
-        <div class="title-block">
+        <div class="header-row">
+        
+          <div class="header-block">
           <h1 class="header-title">ax<span class="logotipstyle">it</span></h1>
           <p class="header-description">Modern axure template for beautiful prototypes</p>
           <div class="header-line"></div>
@@ -43,23 +42,28 @@
             <a href="#">Download</a>
           </div>
         </div>
+
         <div class="form-block">
           <div class="form-container">
-            <h4 class="title-form">Try Your <span class="logotipstyle">FREE</span> Trial Today</h4>
-          <form action="#">
-            <div class="form-group">
-            <input type="text" placeholder="Name" name="name" required>
-            <input type="text" placeholder="Email" name="email" required>
-            <input type="text" placeholder="Password" name="password" required>
+            <form action="#">
+              <h4 class="form-title">Try Your <span class="logotipstyle">FREE</span> Trial Today</h4>
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="" name="name" required>
+              <label for="email"><b>E-mail</b></label>
+              <input type="email" placeholder="" name="e-mail" required>
+              <label for="password"><b>Password</b></label>
+              <input type="password" placeholder="" name="password" required>
+              <button type="submit" class="form-button">Get Started</button>
+            </form>
           </div>
-          <button type="submit" class="form-button">Get Started</button>
-          </form>
-          </div>
+        </div>
+       
+        
         </div>
       </div>
     </header>
 
-    <section class="social-icons">
+    <section class="social">
       <div class="social-container">
         <div class="social-title-block">
         <h4 class="social-title">Social Media</h4>
@@ -247,7 +251,7 @@
     </section>
 
     <section class="axure">
-      <div class="axurecontainer">
+      <div class="axure-container">
         <h2 class="axure-title">Stylish axure design</h2>
         <div class="line"></div>
         <div class="axure-text">
@@ -257,9 +261,11 @@
           <a href="#">Download</a></div>
       </div>
     </section>
-  
-    <footer class="footer">
+
+
+    <section class="contacts">
       <div class="container">
+
         <h2 class="title">Contact us</h2>
         <div class="line"></div>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
@@ -288,7 +294,11 @@
           
 
         <button type="submit" class="form-button">Send Message</button>
-        
+      </div>
+    </section>
+  
+    <footer class="footer">
+      <div class="container">
         <div class="footer-icons">
           <div class="footer-icones">
             <div class="facebook"><i class="fab fa-facebook-f"></i></div>

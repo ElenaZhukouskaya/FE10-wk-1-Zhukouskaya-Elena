@@ -1,0 +1,64 @@
+.axure {
+  width: 100%;
+  padding-top: 3.63em;
+  padding-bottom: 2.38em;
+  background: url("../img/bg/background.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /*display: flex; /*?*/
+}
+
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.axure-container {
+  position: relative;
+  z-index: 1;
+}
+
+.axure-title {
+  width: 39%;
+  margin: auto;
+  font-size: 2.25rem; /*размер шрифта 36*/
+  font-family: Raleway, sans-serif; /*подключен шифр с жирностью 400*/
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center; /*выравнивание строки по центру*/
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-bottom: 2.13rem;
+}
+
+.axure-title::after {
+  content: " ";
+  width: 4.18rem;
+  height: 0.06rem;
+  background-color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  text-align: center;
+  white-space: normal;
+  margin-top: 2.13rem;
+}
+
+.axure-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 3.56rem;
+}
+
+.center {
+  margin: auto;
+  width: 12%;
+}
