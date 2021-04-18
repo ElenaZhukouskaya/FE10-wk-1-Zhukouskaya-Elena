@@ -1,0 +1,82 @@
+@import url(nav.css);
+@import url(social.css);
+@import url(header.css);
+@import url(feature.css);
+@import url(awesome.css);
+@import url(price.css);
+@import url(customer.css);
+@import url(axure.css);
+@import url(contacts.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 0.94rem;
+  margin: auto;
+}
+
+.row {
+  margin: 0 -0.94rem;
+}
+
+.logoll {
+  color: rgba(236, 121, 121, 1);
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2.13rem;
+}
+
+.title::after {
+  content: " ";
+  width: 4.18rem;
+  height: 0.13rem;
+  background-color: rgba(231, 36, 36, 1);
+  display: inline-block;
+  text-align: center;
+  white-space: normal;
+  margin-top: 2.13rem;
+  /*margin-bottom: 3rem;*/ /*4.25*/
+  /*position: absolute;
+  text-align: center;
+  flex-wrap: wrap;*/
+}
+
+.description {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+  text-align: center;
+  margin-bottom: 4.25rem;
+}
+
+.btn {
+  max-width: 30%;
+  border: 0.06rem solid rgba(255, 255, 255, 1);
+  padding: 0.68rem 1.63rem;
+  text-align: center;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(255, 255, 255, 0.7);
+}
+
+.btn a {
+  font-family: Open Sans, sans-serif;
+  font-size: 0.94rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}

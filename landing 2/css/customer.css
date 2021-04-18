@@ -1,0 +1,96 @@
+.customer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5em 0em 7.5em 0em;
+}
+
+.customer-title {
+  width: 58%;
+}
+
+.customer-row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.customer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0.94rem;
+  margin-right: 0.94rem;
+  width: 18.6rem;
+  padding-bottom: 0.63rem;
+}
+
+customer-item:last-child {
+  padding-bottom: 0rem;
+}
+
+.customer-item-text {
+  background-color: rgba(226, 226, 226, 1);
+  font-family: Open sans, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: rgba(134, 135, 139, 1);
+  text-align: center;
+  padding: 0.56rem 1.38rem 0.38rem 1.38rem;
+  border-radius: 0.43rem;
+  margin-bottom: 1.38rem;
+  position: relative;
+}
+
+.customer-item-text::after {
+  content: "";
+  position: absolute; /* Абсолютное позиционирование */
+  left: 1.25rem;
+  bottom: -1.25rem; /* Положение треугольника */
+  border: 0.63rem solid transparent; /* Прозрачные границы */
+  border-top: 0.63rem solid rgba(226, 226, 226, 1); /* Добавляем треугольник */
+}
+
+.customer-item-person {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.customer-photo {
+  display: flex;
+  width: 4.38rem;
+  height: 4.38rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.customer-discription {
+  padding-top: 0.94rem;
+  padding-bottom: 0.31rem;
+}
+
+.customer-name {
+  font-size: 1.25rem;
+  color: rgba(51, 51, 51, 1);
+  font-family: open sans, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 0.75rem;
+}
+
+.customer-profession {
+  font-size: 0.88rem;
+  color: rgba(134, 135, 139, 1);
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  text-align: left;
+}

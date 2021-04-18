@@ -1,0 +1,57 @@
+.footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 1.88rem 0px 1.44rem;
+}
+
+.footer-row {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /*align-items: center;*/
+}
+
+.facebook-footer,
+.twitter-footer,
+.g-footer,
+.youtube-footer,
+.instagram-footer,
+.telegram-footer,
+.spotify-footer {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.43em;
+  font-weight: 600;
+  margin-bottom: 1.13rem;
+  margin-right: 1.43rem;
+}
+
+.facebook-footer i,
+.twitter-footer i,
+.g-footer i,
+.youtube-footer i,
+.instagram-footer i,
+.telegram-footer i,
+.spotify-footer i {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-mark {
+  text-transform: capitalize;
+  font-family: Open Sans, sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.footer-mark::before {
+  content: "\f1f9";
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.75em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-right: 0.31rem;
+}

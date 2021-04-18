@@ -1,0 +1,71 @@
+.nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 1.25em 0em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* padding: 0 5.62rem; */
+}
+
+.logotip {
+  margin-left: 0.94rem;
+}
+
+.logotip:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s ease;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.logo a {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 0.94rem;
+}
+
+.nav-items li {
+  margin-left: 2.45rem;
+}
+
+.nav-items li:hover {
+  border-left: 0.06rem solid rgba(238, 226, 226, 1);
+  border-bottom: 0.06rem solid rgba(238, 226, 226, 1);
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s ease;
+}
+
+.nav-items a {
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-items a:hover {
+  color: rgba(236, 121, 121, 1);
+}
+
+@media screen and (max-width: 600px) {
+}
