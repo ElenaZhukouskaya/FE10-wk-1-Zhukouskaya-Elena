@@ -46,7 +46,7 @@
 
 .social-icons i {
   font-size: 2.63em;
-  margin-left: 2.81rem;
+  margin-left: 2rem;
   color: darkgray;
 }
 
@@ -88,4 +88,32 @@
 
 .spotify i:hover {
   color: #81b71a;
+}
+
+@media screen and (max-width: 1090px) {
+  .social-icons i {
+    font-size: 2em;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .social-title-block {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .social-icons {
+    width: 100%;
+  }
+  .social-icons i:first-child {
+    margin-left: 0;
+  }
 }
