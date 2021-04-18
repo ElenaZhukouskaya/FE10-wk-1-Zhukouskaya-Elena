@@ -6,7 +6,6 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  /*display: flex; /*?*/
 }
 
 .axure::after {
@@ -26,7 +25,6 @@
 }
 
 .axure-title {
-  width: 39%;
   margin: auto;
   font-size: 2.25rem; /*размер шрифта 36*/
   font-family: Raleway, sans-serif; /*подключен шифр с жирностью 400*/
@@ -35,18 +33,19 @@
   text-align: center; /*выравнивание строки по центру*/
   vertical-align: top;
   text-transform: uppercase;
-  margin-bottom: 2.13rem;
+  margin-bottom: 2.5rem;
+  position: relative;
 }
 
 .axure-title::after {
   content: " ";
-  width: 4.18rem;
-  height: 0.06rem;
-  background-color: rgba(255, 255, 255, 1);
-  display: inline-block;
-  text-align: center;
-  white-space: normal;
-  margin-top: 2.13rem;
+  width: 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 1.5rem;
 }
 
 .axure-text {
@@ -61,4 +60,8 @@
 .center {
   margin: auto;
   width: 12%;
+}
+
+.btn {
+  width: 130px;
 }

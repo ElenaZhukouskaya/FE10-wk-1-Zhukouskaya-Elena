@@ -56,21 +56,20 @@
                 <h4 class="form-title">
                   Try Your <span class="logoll">FREE</span> Trial Today
                 </h4>
-
-                <label for="name">Name</label>
-                <input type="text" placeholder="" name="name" required />
-                <hr class="hr" />
-                <label for="email">Email</label>
-                <input type="text" placeholder="" name="email" required />
-                <hr class="hr" />
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  placeholder=""
-                  name="password"
-                  required
-                />
-                <hr class="hrl" />
+                <div class="form-fields">
+                  <div class="form-field">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="" name="name" required />
+                  </div>
+                  <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="" name="email" required />
+                  </div>
+                  <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="" name="password" required />
+                  </div>
+                </div>
                 <button type="submit" class="registrbtn">Get Started</button>
               </div>
             </form>
@@ -142,7 +141,7 @@
             <div class="btn btn-feature"><a href="#">Download</a></div>
           </div>
           <div class="feature-image">
-            <img src="/img/img/image_right_u255@1X 1.png" alt="#" />
+            <img src="img/img/image_right_u255@1X 1.png" alt="#" />
           </div>
         </div>
       </div>
@@ -308,30 +307,35 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
 
-        <div class="contacts-form-block">
+        <form action="#" method="post">
           <div class="contacts-form">
-            <form action="#">
-              <label for="name">Name</label>
-              <input type="text" placeholder="" name="name" required />
-              <hr class="hr" />
-              <label for="email">Email</label>
-              <input type="text" placeholder="" name="email" required />
-              <hr class="hr" />
-              <label for="password">Password</label>
-              <input type="password" placeholder="" name="password" required />
-              <hr class="hr" />
-            </form>
+            <div>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" placeholder="" name="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="text" placeholder="" name="email" required />
+              </div>
+              <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" placeholder="" name="password" required />
+              </div>
+            </div>
+            <div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <div>
+                  <textarea rows="10" cols="45" name="text"></textarea>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="message-form">
-            <form action="#" method="post">
-              <p class="message">Message</p>
-              <p><textarea rows="10" cols="45" name="text"></textarea></p>
-            </form>
+          <div class="btn btn-feature btn-contacts">
+            <a href="#">Send message</a>
           </div>
-        </div>
-        <div class="btn btn-feature btn-contacts">
-          <a href="#">Send message</a>
-        </div>
+        </form>
       </div>
     </section>
 

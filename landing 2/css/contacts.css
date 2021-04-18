@@ -4,42 +4,36 @@
   padding: 5em 0em 3.44em 0em;
 }
 
-.contacts-title {
-  width: 20%;
-}
-
-.contacts-form-block {
-  margin: 0 -0.94rem;
+.contacts-form {
+  padding: 0.94rem 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 4.7rem;
-}
-
-.contacts-form {
-  width: 42%;
-  padding: 0.94rem 0px;
 }
 
 textarea {
+  width: 100%;
   resize: none;
   border: none;
   border-bottom: 0.06rem solid rgba(189, 189, 189, 1);
 }
 
-.message-form {
-  width: 42%;
-  padding: 0.94rem 0px;
-}
-
-.message {
-  font-family: Open Sans, sans-serif;
-  font-size: 0.88rem;
-  font-weight: 400;
-  color: rgba(189, 189, 189, 1);
+textarea:focus {
+  outline: none;
 }
 
 .btn-contacts {
   margin: auto;
   width: 15%;
+}
+
+.btn {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-form {
+    display: flex;
+    flex-direction: column;
+  }
 }

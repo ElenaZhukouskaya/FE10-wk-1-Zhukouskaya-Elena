@@ -1,11 +1,7 @@
 .customer {
   width: 100%;
   background-color: rgba(255, 255, 255, 1);
-  padding: 5em 0em 7.5em 0em;
-}
-
-.customer-title {
-  width: 58%;
+  padding: 5em 0em 6.5em 0em;
 }
 
 .customer-row {
@@ -22,7 +18,7 @@
   margin-left: 0.94rem;
   margin-right: 0.94rem;
   width: 18.6rem;
-  padding-bottom: 0.63rem;
+  padding-bottom: 1.63rem;
 }
 
 customer-item:last-child {
@@ -93,4 +89,12 @@ customer-item:last-child {
   font-family: open sans, sans-serif;
   font-weight: 400;
   text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .customer-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
