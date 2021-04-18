@@ -54,25 +54,31 @@
 }
 
 .header-title {
-  width: 95%;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
-  /*margin-bottom: 2rem;*/
+  position: relative;
+  margin-bottom: 5rem;
 }
 
 .header-title::after {
   content: " ";
   width: 4.18rem;
+  /*
   height: 0.06rem;
-  background-color: rgba(255, 255, 255, 1);
-  display: inline-block;
-  margin-top: 2rem;
-  margin-bottom: 2.43rem;
-  /*position: absolute;*/
-  text-align: left;
+  */
+  /*background-color: rgba(255, 255, 255, 1);*/
+  border-bottom: 1px solid #fff;
+  /*display: inline-block;*/
+
+  padding-bottom: 2.43rem;
+
+  position: absolute;
+  left: 0;
+  top: 100%;
+  /*text-align: left;*/
   /*flex-wrap: wrap;*/
 }
 
@@ -82,6 +88,10 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 2.43rem;
+}
+
+.btn {
+  width: 130px;
 }
 
 .btn a:hover {
@@ -100,7 +110,7 @@
 
 .form-container {
   background-color: rgba(255, 255, 255, 1);
-  width: 23.13rem;
+  /*width: 23.13rem;*/
   border-radius: 0.5rem;
 }
 
@@ -167,4 +177,31 @@ input[type="password"]:focus {
   cursor: pointer;
   width: 100%;
   /* margin-top: 2rem;*/
+}
+
+@media screen and (max-width: 600px) {
+  .header-row {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .header-block {
+    width: 100%;
+  }
+
+  .header-title,
+  .header-text,
+  .site-name {
+    text-align: center;
+  }
+
+  .header-title::after {
+    left: 45%;
+  }
+
+  .btn {
+    margin: 3rem auto;
+  }
 }
