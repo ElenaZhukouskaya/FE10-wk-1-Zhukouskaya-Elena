@@ -1,0 +1,84 @@
+.download {
+  width: 100%;
+  padding: 99px 0;
+}
+
+.download-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-title {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: #2d3033;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.download-description {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2d3033;
+  text-align: left;
+  margin-bottom: 39px;
+}
+
+.download-button {
+  margin: auto;
+  display: block;
+  width: 281px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #e84545;
+  padding: 18px 0;
+}
+
+@media screen and (max-width: 880px) {
+  .download {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .download {
+    padding: 70px 0;
+  }
+
+  .download-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .download-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .download-description {
+    text-align: center;
+  }
+
+  .download-button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .download {
+    padding: 50px 0;
+  }
+
+  .download-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
