@@ -286,10 +286,6 @@
     display: flex;
   }
 
-  /*.hamburger-menu {
-    display: block;
-  }*/
-
   .nav-menu-burger {
     display: block;
   }
@@ -304,7 +300,6 @@
   .title {
     font-size: 40px;
     padding: 0 40px;
-    /*margin-bottom: 60px;*/
   }
 
   .header-text {
@@ -314,18 +309,12 @@
 }
 
 @media screen and (max-width: 561px) {
-  /*.firstscreen {
-    padding: 50px 0 0 0; /*200px 0 157px 0;
-  }*/
-
   .title {
     font-size: 35px;
     padding: 0 30px;
-    /*margin-bottom: 60px;*/
   }
 
   .header-text {
-    /*margin-bottom: 110px;*/
     padding: 0 20px;
   }
 }
@@ -334,7 +323,6 @@
   .title {
     font-size: 30px;
     padding: 0 10px;
-    /*margin-bottom: 60px;*/
   }
 
   .header-text {
