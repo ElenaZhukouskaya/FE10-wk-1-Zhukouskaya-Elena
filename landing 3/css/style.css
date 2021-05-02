@@ -3,6 +3,7 @@
 @import url(team.css);
 @import url(works.css);
 @import url(download.css);
+@import url(clients.css);
 @import url(footer.css);
 
 * {
@@ -15,7 +16,7 @@
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
+  padding: 0 0.94rem;
   margin: auto;
 }
 

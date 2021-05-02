@@ -4,26 +4,6 @@
   width: 100%;
 }
 
-/*.works-column {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-}
-
-.works-column-item {
-  flex: 0 0 100%;
-  position: relative;
-}
-
-.works-column-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
-
 .works-top,
 .works-bottom {
   display: flex;
@@ -32,31 +12,31 @@
   /*height: 137%;*/
 }
 
-.works-bottom img {
-  /*padding-bottom: 50%;*/
-}
+/*.works-bottom img {
+  max-width: 100%;
+  /*height: 351px;
+}*/
 
-.works-block {
+/*.works-block {
   display: block;
   background-color: #e84545;
   /*width: 100%;
   height: 50%;*/
-  position: relative;
-}
+/*position: relative;
+}*/
 
 .works-top img,
-.works-bottom img,
-.works-block {
+.works-bottom img {
   width: 25%;
   height: auto;
   /*flex: 0 0 25%;*/
   object-fit: cover;
 }
 
-.project-about {
+/*.project-about {
   padding: 0 30%;
   /*padding: 44% 35%;*/
-  position: absolute;
+/*position: absolute;
   top: 30%;
   left: 0;
 }
@@ -76,6 +56,170 @@
   font-size: 14px;
   color: #ffffff;
   text-align: center;
+}*/
+
+/*@media screen and (max-width: 1100px) {
+  .project-name {
+    font-size: 13px;
+    /*margin-bottom: 24px;*/
+/*}
+
+  .project-description {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .project-name {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 781px) {
+  .project-name {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+
+  .project-description {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .project-about {
+    padding: 0 5%;
+    /*padding: 44% 35%;*/
+/*position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .project-name {
+    font-size: 8px;
+    margin-bottom: 14px;
+  }
+
+  .project-description {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .project-name {
+    font-size: 6px;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 335px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 316px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 294px) {
+  .project-about {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+  }
+}
+
+@media screen and (max-width: 273px) {
+  .project-about {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+  }
+  .project-name {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .project-about {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+  }
+  .project-name {
+    margin-bottom: 5px;
+  }
 }
 
 /*.works-row {
@@ -110,4 +254,24 @@
   /*background-color: aqua;
   /*padding: 10px;
   /* gx/gy - gutters  
+}*/
+
+/*.works-column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.works-column-item {
+  flex: 0 0 100%;
+  position: relative;
+}
+
+.works-column-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }*/

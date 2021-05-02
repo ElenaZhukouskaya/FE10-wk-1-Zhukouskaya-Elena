@@ -1,0 +1,131 @@
+.clients {
+  width: 100%;
+  /*height: 100%;*/
+  background-color: #53354a;
+  margin: 0;
+  /*padding: 120px 120px 80px 120px;*/
+}
+
+.clients-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.clients-slide {
+  /*max-width: 1140px;*/
+  /*max-height: 501px;*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /*margin: 0 -0.94rem;*/
+  /*justify-content: space-between;
+  flex-wrap: no-wrap;*/
+}
+
+.clients-photo {
+  max-width: 50%;
+  /*position: relative;
+  /*height: 501px;*/
+  /* min-height: 150px;*/
+  /*overflow: hidden;*/
+}
+
+.clients-photo img {
+  width: 100%;
+  /*height: 100%;*/
+  /*max-height: 400px;*/
+
+  /*object-fit: cover;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+.clients-block {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 0 9%;
+}
+
+.clients-words {
+  font-family: "Cardo Italic", sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  font-style: italic;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 6%;
+}
+
+.clients-name {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: left;
+}
+
+@media screen and (max-width: 1296px) {
+  .clients-words {
+    font-size: 30px;
+  }
+
+  .clients-name {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1188px) {
+  /*.clients-block {
+    padding: 5% 10% 10% 10%;
+  }*/
+
+  .clients-words {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .clients-words {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .clients-words {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 742px) {
+  .clients-words {
+    font-size: 18px;
+  }
+
+  .clients-name {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .clients-slide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .clients-block {
+    max-width: 100%;
+  }
+
+  .clients-words {
+    margin-bottom: 3%;
+  }
+
+  .clients-name {
+    margin-bottom: 5%;
+  }
+  .clients-photo {
+    display: none;
+  }
+}
